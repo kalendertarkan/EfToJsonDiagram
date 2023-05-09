@@ -15,7 +15,7 @@
         
     }
     
-# Josn Example
+# Json Example
 ```json
 {
   "entities": [
