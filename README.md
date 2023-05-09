@@ -15,7 +15,7 @@
         public int DealerId { get; set; }
         
     }
-    ```
+```
 # Json Example
 ```json
 {
