@@ -6,6 +6,7 @@
 
 
 # Ef Table Colum Propery
+```c#
  public class ActionLog
     {   
         [Comment("(DbTest / DbProd).dbo.Users.Id")]
