@@ -1,10 +1,10 @@
 # EfToJsonDiagram
-
+```c#
             var converter = new EntityFrameworkCore.Diagrams.EfDiagramExtensions();
             var dbContextModel = _dbContext.Model;
             var json = converter.GetEfToJsonDiagram(dbContextModel);
 
-
+```
 # Ef Table Colum Propery
 ```c#
  public class ActionLog
@@ -15,7 +15,7 @@
         public int DealerId { get; set; }
         
     }
-    
+    ```
 # Json Example
 ```json
 {
@@ -83,3 +83,4 @@
     }
   ]
 }
+```
