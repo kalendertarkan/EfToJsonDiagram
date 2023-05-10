@@ -5,7 +5,7 @@
             var json = converter.GetEfToJsonDiagram(dbContextModel);
 
 ```
-# Ef Table Colum Propery
+# Ef Table Column Property
 ```c#
  public class ActionLog
     {   
