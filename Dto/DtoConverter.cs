@@ -22,7 +22,9 @@ namespace EntityFrameworkCore.Diagrams.Dto
                  
             return new DbModel
             {
-                Entities = model.GetEntityTypes().Select(e => ConvertToDto(e))
+                Entities = model.GetEntityTypes().Select(e => ConvertToDto(e)),
+                CreateDate = DateTime.Now
+                
             };
         }
 

@@ -7,5 +7,6 @@ namespace EntityFrameworkCore.Diagrams.Dto
     public class DbModel
     {
         public IEnumerable<DbEntity> Entities { get; set; }
+        public DateTime CreateDate { get; set; }
     }
 }
